@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 $(call inherit-product, vendor/devolution/config/common_full_phone.mk)
 DEVO_BUILD_TYPE := UNOFFICIAL
 EXTRA_UDFPS_ANIMATIONS := true
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 2160
 TARGET_SUPPORTS_QUICK_TAP := true
 
 DEVO_BUILD_TYPE := OFFICIAL
