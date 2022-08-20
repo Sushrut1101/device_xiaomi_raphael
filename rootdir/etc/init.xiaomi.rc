@@ -49,7 +49,7 @@ on init && property:ro.boot.hwc=GLOBAL
 on init && property:ro.boot.hwc=CN
     setprop ro.boot.product.hardware.sku raphael
 
-on property:ro.boot.product.hardware.sku=raphael
+on property:ro.boot.product.hardware.sku=raphaelin
     enable vendor.nfc_hal_service
 
 on property:sys.boot_completed=1
