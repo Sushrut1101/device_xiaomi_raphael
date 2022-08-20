@@ -10,6 +10,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/raphael/raphael-vendor.mk)
 
+# Resolution 
+TARGET_SCREEN_HEIGHT := 3840
+TARGET_SCREEN_WIDTH := 2160
 
 # ANT+
 PRODUCT_PACKAGES += \
